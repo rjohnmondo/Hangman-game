@@ -7,14 +7,25 @@ var wrestlers = ['John Cena','AJ Styles', 'The Undertaker', 'Randy Orton', 'Bray
 var select = wrestlers[Math.floor(Math.random()* wrestlers.length)];
 console.log(select);
 
+
 // This finds the blank space in the string"
 
 var blank = select;
 console.log(select);
 var blankSpace = blank.search(" "); // Searches for " " in wrestlers array items...
-console.log(blankSpace);
+console.log("The Blank Space is in this position " + blankSpace);
 
-//
+// This figures out how long the first name and the last name of each wrestler is
+// based on where the blank space in the string is (found above)
 
-var spaces = [];
-for (var i=0, i <select ; i++
+console.log ("The length of the selected field is " + select.length);
+
+var blankChar = (blankSpace +1);
+console.log ("The Blank Space is in String space " + blankChar);
+
+var lastName = ((select.length)-(blankChar));
+console.log("Lastname is " + lastName + "Characters long");
+
+var firstName =((select.length) - (lastName )-1);
+console.log ("firstName is " + firstName + "Characters long");
+
