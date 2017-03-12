@@ -4,21 +4,68 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hangman Game</title>
+
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 <body>
+<div class = container>
 <div class ="row">
 	<div class ="col-md-12">
-<header>WWE HANGMAN </header>
-	
-
+	  <div class = "jumbotron">
+		<header>WWE HANGMAN </header>
+		<p>Try to guess the WWE Superstar !</p>
+	</div>	
+			
 	<div class = "row">
 		<div class ="col-lg-12">
-			
-	    <div id="word">
 
+		<!-- first section -->
+
+		<div class= "panel panel-default">
+			<div class= "panel-heading">
+				<h3 class="panel-title">Guess the name of WWE Superstar</h3>
+			</div>
+			<div class="panel-body">
+				<h2>_ _ _ _ _ _ _ _ _ </h2>
+			</div>
+		</div>
+
+		<div class= "panel panel-default">
+			
+			<div class="panel-body">
+				Incorrect Guesses : <span id=wrongGuesses></span>
+			</div>
+		</div>
+
+		<div class= "panel panel-default">
+			
+			<div class="panel-body">
+				Number of Lives remining : <span id=numGuesses></span>
+			</div>
+		</div>
+
+		<div class= "panel panel-default">
+			
+			<div class="panel-body">
+				Wins :<span id=wins>0</span>
+			</div>
+		</div>
+
+		<div class= "panel panel-default">
+			
+			<div class="panel-body">
+				Losses :<span id=loss>0</span>
+			</div>
+		</div>
+
+			
+
+</div> <!--End of Container tag -->			
+	    
 			
 
 

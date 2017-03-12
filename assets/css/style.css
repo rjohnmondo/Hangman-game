@@ -1,10 +1,11 @@
 body {
 
-	/* background-image: url(../images/background.jpg); */
+	background-image: url(../images/background.jpg) ;
+	font-family: 'Roboto', sans-serif; 
 }
 
 header {
-	font-size:60px;
+	font-size:40px;
 	font-weight: 700;
 	color:black;
 	text-align:center;
@@ -26,4 +27,15 @@ img {
 
 .alphabet {
 	text-align:center;
+}
+
+.jumbotron {
+	background-color: transparent;
+	
+
+}
+
+.jumbotron p {
+	text-align:center;
+	color: white;
 }
